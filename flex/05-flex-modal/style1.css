@@ -20,21 +20,33 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
-  display: flex;
-  padding: 10px;
-  gap: 20px;
- 
+  
 }
+.part1{
+  display: flex;
+  gap: 10px;
+  padding: 10px;
 
+}
 .header{
-  padding-top: 1px;
-  padding-bottom: 10px;
+  padding-top: 5px;
   font-weight: bold;
+  
 }
 .text{
-  padding-bottom: 10px;
+  
+  margin-left: 65px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+   
 }
-
+.part2{
+  padding-bottom: 15px;
+  
+}
+.two-buttons{
+  padding-left: 65px;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -46,7 +58,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-shrink: 0;
 }
 
 .close-button {
@@ -61,8 +72,9 @@ body {
   align-items: center;
   justify-content: center;
   border: 1px solid #eee;
-  padding: 0;
-  flex-shrink: 0;
+  padding: 0px;
+  margin-left: auto;
+  align-self: center;
 }
 
 button {
@@ -70,6 +82,7 @@ button {
   padding: 8px 16px;
   border-radius: 8px;
 }
+ 
 
 button.continue {
   background: royalblue;
